@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "tailwindcss";
 
-html {
-  --background-color: #FBFBFB;
+@theme {
+  --color-custom-grey: #FBFBFB;
+  --color-red-accent: #FF5252;
+}
 
+html { 
+  font-size: 1rem;
   background-color: white;
-  background-image:
-  radial-gradient(circle at 100% 150%, var(--background-color) 24%, white 24%, white 28%, var(--background-color) 28%, var(--background-color) 36%, white 36%, white 40%, transparent 40%, transparent),
-  radial-gradient(circle at 0    150%, var(--background-color) 24%, white 24%, white 28%, var(--background-color) 28%, var(--background-color) 36%, white 36%, white 40%, transparent 40%, transparent),
-  radial-gradient(circle at 50%  100%, white 10%, var(--background-color) 10%, var(--background-color) 23%, white 23%, white 30%, var(--background-color) 30%, var(--background-color) 43%, white 43%, white 50%, var(--background-color) 50%, var(--background-color) 63%, white 63%, white 71%, transparent 71%, transparent),
-  radial-gradient(circle at 100% 50%, white 5%, var(--background-color) 5%, var(--background-color) 15%, white 15%, white 20%, var(--background-color) 20%, var(--background-color) 29%, white 29%, white 34%, var(--background-color) 34%, var(--background-color) 44%, white 44%, white 49%, transparent 49%, transparent),
-  radial-gradient(circle at 0    50%, white 5%, var(--background-color) 5%, var(--background-color) 15%, white 15%, white 20%, var(--background-color) 20%, var(--background-color) 29%, white 29%, white 34%, var(--background-color) 34%, var(--background-color) 44%, white 44%, white 49%, transparent 49%, transparent);
   background-size: 50px 25px;
+  font-family: "Poppins", "serif";
+  background-image:
+  radial-gradient(circle at 100% 150%, var(--color-custom-grey) 24%, white 24%, white 28%, var(--color-custom-grey) 28%, var(--color-custom-grey) 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, var(--color-custom-grey) 24%, white 24%, white 28%, var(--color-custom-grey) 28%, var(--color-custom-grey) 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, var(--color-custom-grey) 10%, var(--color-custom-grey) 23%, white 23%, white 30%, var(--color-custom-grey) 30%, var(--color-custom-grey) 43%, white 43%, white 50%, var(--color-custom-grey) 50%, var(--color-custom-grey) 63%, white 63%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, var(--color-custom-grey) 5%, var(--color-custom-grey) 15%, white 15%, white 20%, var(--color-custom-grey) 20%, var(--color-custom-grey) 29%, white 29%, white 34%, var(--color-custom-grey) 34%, var(--color-custom-grey) 44%, white 44%, white 49%, transparent 49%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, var(--color-custom-grey) 5%, var(--color-custom-grey) 15%, white 15%, white 20%, var(--color-custom-grey) 20%, var(--color-custom-grey) 29%, white 29%, white 34%, var(--color-custom-grey) 34%, var(--color-custom-grey) 44%, white 44%, white 49%, transparent 49%, transparent);
 }
