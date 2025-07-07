@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+html {
+  --background-color: #FBFBFB;
+
+  background-color: white;
+  background-image:
+  radial-gradient(circle at 100% 150%, var(--background-color) 24%, white 24%, white 28%, var(--background-color) 28%, var(--background-color) 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 0    150%, var(--background-color) 24%, white 24%, white 28%, var(--background-color) 28%, var(--background-color) 36%, white 36%, white 40%, transparent 40%, transparent),
+  radial-gradient(circle at 50%  100%, white 10%, var(--background-color) 10%, var(--background-color) 23%, white 23%, white 30%, var(--background-color) 30%, var(--background-color) 43%, white 43%, white 50%, var(--background-color) 50%, var(--background-color) 63%, white 63%, white 71%, transparent 71%, transparent),
+  radial-gradient(circle at 100% 50%, white 5%, var(--background-color) 5%, var(--background-color) 15%, white 15%, white 20%, var(--background-color) 20%, var(--background-color) 29%, white 29%, white 34%, var(--background-color) 34%, var(--background-color) 44%, white 44%, white 49%, transparent 49%, transparent),
+  radial-gradient(circle at 0    50%, white 5%, var(--background-color) 5%, var(--background-color) 15%, white 15%, white 20%, var(--background-color) 20%, var(--background-color) 29%, white 29%, white 34%, var(--background-color) 34%, var(--background-color) 44%, white 44%, white 49%, transparent 49%, transparent);
+  background-size: 50px 25px;
+}
