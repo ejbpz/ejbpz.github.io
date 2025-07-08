@@ -7,7 +7,7 @@
     <title>Portfolio | Eduardo J. Brenes Pérez</title>
     <link rel="stylesheet" href="/src/styles/styles.css">
   </head>
-  <body class="container mx-auto">
+  <body>
     <header class="fixed z-10 left-1/2 -translate-x-[50%] top-3.5">
       <div class="py-3 px-5.5 bg-white border-[1px] rounded-2xl before:flex before:fixed before:bg-black before:top-1 before:right-1 before:w-full before:h-full before:rounded-2xl before:-z-10">
         <ul class="flex gap-4">
@@ -18,15 +18,17 @@
       </div>
     </header>
 
-    <main class="h-dvh flex justify-center items-center">
+    <main class="container mx-auto h-dvh flex justify-center items-center">
       <div class="flex flex-col items-center gap-5">
-        <figure class="bg-red-accent [clip-path:circle(50%)] h-80 w-80 not-sm:h-64 not-sm:w-64 flex justify-center">
-          <img src="/public/assets/images/avatar.svg" alt="Eduardo's avatar" class="max-w-fit w-[400px] not-sm:w-[350px] object-cover">
-        </figure>
-        
+        <div class="shadow-xl rounded-full">
+          <figure class="bg-red-accent [clip-path:circle(50%)] h-80 w-80 not-sm:h-64 not-sm:w-64 flex justify-center overflow-hidden">
+            <img src="/public/assets/images/avatar.svg" alt="Eduardo's avatar" class="max-w-fit w-[400px] not-sm:w-[350px] object-cover">
+          </figure>
+        </div>
+          
         <div class="text-center not-sm:max-w-2xs flex flex-col gap-1">
           <h1 class="font-rock-n-roll text-3xl font-bold not-sm:text-2xl">Eduardo J. Brenes Pérez</h1>
-          <h2 class="font-medium text-lg">Backend & Mobile Developer</h2>
+          <h2 class="font-medium text-lg">Web & Mobile Developer</h2>
         </div>
 
         <div class="flex gap-3">
@@ -40,20 +42,36 @@
       </div>
     </main>
 
-    <section>
-      About Me
+    <section class="bg-red-accent shadow-2xl py-10 px-4 text-white">
+      <div class="max-w-3xl mx-auto">
+        <h3 class="font-rock-n-roll text-xl">About Me</h3>
+        <div class="mx-auto flex flex-col justify-center items-center">
+          <p class="leading-relaxed text-gray-100 mt-2">
+            Hey there! I'm a developer who enjoys building clean and functional web apps. I’ve worked with technologies like
+            <strong>Angular</strong>, <strong>Flutter</strong>, and <strong>.NET</strong> — and I’m always curious to learn more.
+            I like solving real-world problems through code, whether it’s frontend, backend, or somewhere in between.
+          </p>
+          <p class="leading-relaxed text-gray-100 mt-3">
+            I enjoy keeping things simple, writing readable code, and constantly improving. When I’m not coding, you’ll probably find me learning something new, organizing ideas for a personal project, or drinking way too much tea.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section>
-      Projects
+    <section class="max-w-3xl mx-auto not-sm:px-4 py-10">
+      <h3 class="font-rock-n-roll text-xl">Projects</h3>
     </section>
 
-    <section>
-      Tech Stack
+    <section class="max-w-3xl mx-auto not-sm:px-4 py-10">
+      <h3 class="font-rock-n-roll text-xl">Tech Stack</h3>
     </section>
     
-    <footer>
-      Footer
+    <footer class="bg-red-accent shadow-2xl py-5 text-white">
+      <div class="max-w-3xl mx-auto flex justify-center gap-10">
+        <p>2</p>
+        <p>2</p>
+        <p>2</p>
+      </div>
     </footer>
 
     <script type="module" src="/src/main.ts"></script>
