@@ -26,7 +26,7 @@ export const ProjectsList: Projects[] = [
     image: 'projects/placeholder.jfif',
     title: 'Teslo Shop Web',
     description: 'Angular e-commerce clothing store consuming a NestJS API with role-based auth and token guards.',
-    stack: ['stack/2.typescript.svg', 'stack/3.angular.svg', 'stack/11.tailwind.svg', 'stack/15.rxjs.svg'],
+    stack: ['stack/2.typescript.svg', 'stack/3.angular.svg', 'stack/15.rxjs.svg', 'stack/11.tailwind.svg'],
     repository: 'https://github.com/ejbpz/teslo-shop-angular-app',
   },
 ]

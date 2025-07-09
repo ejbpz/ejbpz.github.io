@@ -6,8 +6,8 @@ ProjectsList.forEach(project => {
   const stack = document.createElement('div');
 
   project.stack.forEach(technology => {
-    stack.innerHTML += `<div class="w-6 h-6">
-      <img src="/public/assets/images/${technology}" alt="${technology.split('.')[0]}">
+    stack.innerHTML += `<div class="w-6 h-6 object-cover">
+      <img class="w-full h-full" src="/public/assets/images/${technology}" alt="${technology.split('.')[0]}">
     </div>`
   })
 
@@ -27,7 +27,7 @@ ProjectsList.forEach(project => {
         <div class="w-[80%] flex gap-1 flex-wrap">
           ${stack.getHTML()}
         </div>
-        <a href="${project.repository}" class="w-[20%] text-center cursor-pointer">></a>
+        <a href="${project.repository}" target="_blank" rel="noopener noreferrer" class="w-[20%] text-center cursor-pointer">></a>
       </div>
     </div>
   </div>`;
