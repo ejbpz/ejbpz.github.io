@@ -7,7 +7,7 @@ ProjectsList.forEach(project => {
 
   project.stack.forEach(technology => {
     stack.innerHTML += `<div class="w-6 h-6 object-cover">
-      <img class="w-full h-full" src="/public/assets/images/${technology}" alt="${technology.split('.')[0]}">
+      <img class="w-full h-full" src="/assets/images/${technology}" alt="${technology.split('.')[0]}">
     </div>`
   })
 
