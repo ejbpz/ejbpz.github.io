@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="./assets/icon/icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Eduardo J. Brenes Pérez</title>
+    <script type="module" crossorigin src="./assets/index-CtSudPUN.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BUZtasXb.css">
+  </head>
+  <body>
+    <header class="fixed z-20 left-1/2 -translate-x-[50%] top-3.5">
+      <nav class="py-3 px-5.5 bg-white border-[1px] rounded-2xl before:flex before:fixed before:bg-black before:top-1 before:right-1 before:w-full before:h-full before:rounded-2xl before:-z-20">
+        <ul class="flex gap-4">
+          <li><a class="hover:text-red-accent hover:font-medium" href="">Home</a></li>
+          <li><a class="hover:text-red-accent hover:font-medium" href="#AboutMe">About</a></li>
+          <li><a class="hover:text-red-accent hover:font-medium" href="#Projects">Projects</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="py-5 container mx-auto min-h-dvh flex justify-center items-center">
+      <div class="flex flex-col items-center gap-5">
+        <div class="shadow-xl rounded-full">
+          <figure class="bg-red-accent [clip-path:circle(50%)] h-80 w-80 not-sm:h-64 not-sm:w-64 flex justify-center overflow-hidden">
+            <img src="./assets/images/avatar/avatar.svg" alt="Eduardo's avatar" class="max-w-fit w-[400px] not-sm:w-[350px] object-cover">
+          </figure>
+        </div>
+          
+        <div class="text-center not-sm:max-w-2xs flex flex-col gap-1">
+          <h1 class="font-rock-n-roll text-3xl font-bold not-sm:text-2xl">Eduardo J. Brenes Pérez</h1>
+          <h2 class="font-medium text-lg">Web & Mobile Developer</h2>
+        </div>
+
+        <div class="flex gap-3">
+          <div class="relative">
+            <a target="_blank" href="https://www.linkedin.com/in/ejbpz/" class="block px-4 py-2 bg-red-accent rounded-2xl text-white border-[1px] border-black before:w-full before:h-full before:absolute before:bg-black before:flex before:top-1 before:right-1 before:rounded-2xl z-10 before:-z-10 hover:bg-white hover:text-red-accent hover:font-medium" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          <div class="relative">
+            <a target="_blank" href="https://github.com/ejbpz/" class="block px-4 py-2 bg-white rounded-2xl border-[1px] not-hover:font-medium text-red-accent border-black before:w-full before:h-full before:absolute before:bg-black before:flex before:top-1 before:right-1 before:rounded-2xl z-10 before:-z-10 hover:bg-red-accent hover:text-white" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section class="bg-red-accent shadow-2xl py-10 px-4 text-white" id="AboutMe">
+      <div class="max-w-3xl mx-auto">
+        <h3 class="font-rock-n-roll text-xl font-semibold">About Me</h3>
+        <div class="mx-auto flex flex-col justify-center items-center">
+          <p class="leading-relaxed text-gray-100 mt-2">
+            Hey there! I'm a developer who enjoys building clean and functional web apps. I've worked with technologies like
+            <strong>Angular</strong>, <strong>Flutter</strong>, and <strong>.NET</strong> — and I'm always curious to learn more.
+            I like solving real-world problems through code, whether it's frontend, backend, or somewhere in between.
+          </p>
+          <p class="leading-relaxed text-gray-100 mt-3">
+            I enjoy keeping things simple, writing readable code, and constantly improving. When I'm not coding, you'll probably find me learning something new, organizing ideas for a personal project, or drinking way too much tea.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-3xl mx-auto px-4 pt-10" id="Projects">
+      <h3 class="font-rock-n-roll text-xl font-semibold">Projects</h3>
+      <div id="projects-divs" class="grid grid-cols-2 not-sm:grid-cols-1 gap-6 px-10 mt-3"></div>
+    </section>
+
+    <section class="max-w-3xl mx-auto px-4 py-10" id="TechStack">
+      <h3 class="font-rock-n-roll text-xl font-semibold">Tech Stack</h3>
+      <div class="mt-3 grid not-sm:grid-cols-2 grid-cols-3 justify-items-center items-center gap-5 justify-center">
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%20128%20128'%3e%3cpath%20fill='currentColor'%20d='m117.5%2033.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6L67.1%202.9c-.8-.5-1.9-.7-3.1-.7s-2.3.3-3.1.7l-48%2027.9c-1.7%201-2.9%203.5-2.9%205.4v55.7c0%201.1.2%202.3.9%203.4l-.2.1c.5.8%201.2%201.5%201.9%201.9l48.2%2027.9c.8.5%201.9.7%203.1.7s2.3-.3%203.1-.7l48-27.9c1.7-1%202.9-3.5%202.9-5.4V36.1c.1-.8%200-1.7-.4-2.6m-53.5%2070c-21.8%200-39.5-17.7-39.5-39.5S42.2%2024.5%2064%2024.5c14.7%200%2027.5%208.1%2034.3%2020l-13%207.5C81.1%2044.5%2073.1%2039.5%2064%2039.5c-13.5%200-24.5%2011-24.5%2024.5s11%2024.5%2024.5%2024.5c9.1%200%2017.1-5%2021.3-12.4l12.9%207.6c-6.8%2011.8-19.6%2019.8-34.2%2019.8M115%2062h-3.2l-.9%204h4.1v5h-5l-1.2%206h-4.9l1.2-6h-3.8l-1.2%206h-4.8l1.2-6H94v-5h3.5l.9-4H94v-5h5.3l1.2-6h4.9l-1.2%206h3.8l1.2-6h4.8l-1.2%206h2.2zm-12.7%204h3.8l.9-4h-3.8z'/%3e%3c/svg%3e" alt="C#'s Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2024%2024'%3e%3cg%20fill='none'%3e%3cg%20clip-path='url(%23akarIconsTypescriptFill0)'%3e%3cpath%20fill='currentColor'%20d='M23.429%200H.57A.57.57%200%200%200%200%20.571V23.43a.57.57%200%200%200%20.571.571H23.43a.57.57%200%200%200%20.571-.571V.57a.57.57%200%200%200-.572-.57m-9.143%2012.826h-2.857v8.888H9.143v-8.888H6.286v-1.969h8zm.64%208.38v-2.375s1.298.978%202.855.978s1.497-1.018%201.497-1.158c0-1.477-4.412-1.477-4.412-4.751c0-4.452%206.429-2.695%206.429-2.695l-.08%202.116s-1.078-.719-2.296-.719s-1.657.58-1.657%201.198c0%201.597%204.452%201.438%204.452%204.652c0%204.95-6.788%202.755-6.788%202.755'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='akarIconsTypescriptFill0'%3e%3cpath%20fill='%23fff'%20d='M0%200h24v24H0z'/%3e%3c/clipPath%3e%3c/defs%3e%3c/g%3e%3c/svg%3e" alt="TypeScript's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill='currentColor'%20d='M16.712%2017.711H7.288l-1.204%202.916L12%2024l5.916-3.373zM14.692%200l7.832%2016.855l.814-12.856zM9.308%200L.662%203.999l.814%2012.856zm-.405%2013.93h6.198L12%206.396z'/%3e%3c/svg%3e" alt="Angular's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%20256%20256'%3e%3cpath%20fill='currentColor'%20d='M0%200h256v256H0z'/%3e%3cpath%20fill='%23fff'%20d='M45.627%20163.555q-2.715%200-4.615-1.809q-1.9-1.856-1.901-4.408q0-2.598%201.9-4.454q1.901-1.856%204.616-1.856q2.76%200%204.661%201.856q1.946%201.856%201.946%204.454q0%202.551-1.946%204.408q-1.9%201.81-4.66%201.81m72.361-1.02h-11.765L75.225%20113.63a22%2022%200%200%201-1.946-3.85h-.272l.047.305l.043.35l.04.393l.038.436l.049.736l.042.832l.035.93l.028%201.028l.02%201.125l.01.805l.01%202.2v43.614H62.961V96h12.535l29.957%2047.743l.74%201.169l.477.768l.408.675l.34.583l.19.338l.16.296l.13.255h.18l-.034-.21l-.064-.45l-.06-.493l-.053-.537l-.024-.285l-.046-.602l-.04-.645l-.035-.69l-.042-1.114l-.03-1.212l-.018-1.31l-.006-1.407V96h10.362zm50.685%200h-36.428V96h34.98v9.373h-24.21v18.837h22.31v9.326h-22.31v19.673h25.658zm51.772-57.162H201.8v57.162h-10.77v-57.162h-18.6V96h48.014z'/%3e%3c/svg%3e" alt="Dotnet's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2024%2024'%3e%3cg%20fill='none'%3e%3cg%20clip-path='url(%23akarIconsJavascriptFill0)'%3e%3cpath%20fill='currentColor'%20fill-rule='evenodd'%20d='M0%200h24v24H0zm18.347%2020.12c-1.113%200-1.742-.58-2.225-1.37l-1.833%201.065c.662%201.308%202.015%202.306%204.11%202.306c2.142%200%203.737-1.112%203.737-3.143c0-1.883-1.082-2.72-2.998-3.543l-.564-.241c-.968-.42-1.387-.693-1.387-1.37c0-.547.42-.966%201.08-.966c.647%200%201.064.273%201.451.966l1.756-1.127c-.743-1.307-1.773-1.806-3.207-1.806c-2.014%200-3.303%201.288-3.303%202.98c0%201.835%201.08%202.704%202.708%203.397l.564.242c1.029.45%201.642.724%201.642%201.497c0%20.646-.597%201.113-1.531%201.113m-8.74-.015c-.775%200-1.098-.53-1.452-1.16l-1.836%201.112c.532%201.126%201.578%202.06%203.383%202.06c1.999%200%203.368-1.063%203.368-3.398v-7.7h-2.255v7.67c0%201.127-.468%201.416-1.209%201.416'%20clip-rule='evenodd'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='akarIconsJavascriptFill0'%3e%3cpath%20fill=''%20d='M0%200h24v24H0z'/%3e%3c/clipPath%3e%3c/defs%3e%3c/g%3e%3c/svg%3e" alt="JavaScript's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%20128%20128'%3e%3cpath%20fill='currentColor'%20d='M46.459.904c-3.514-.12-6.957.916-9.557%203.617c-1.566%201.614-2.879%203.383-4.34%204.997c-1.667%201.816-3.687%203.332-6.007%204.187c-2.02.758-4.04.606-6.106.961c-2.12.352-4.293%201.11-6.007%202.473c-1.868%201.515-2.625%203.53-2.825%205.855c-.203%201.817-.152%203.684-.254%205.5c-.254%205.352-1.968%206.864-5.804%209.844c-1.614%201.21-2.977%202.824-3.989%204.543c-3.027%205.348%201.82%2010.898%202.07%2016.301c.051%201.11-.05%202.219-.452%203.281c-.407%201.16-1.211%201.918-1.868%202.875C.41%2066.6-.195%2068.116.06%2069.678c.25%201.566%201.058%203.031%201.816%204.395c1.465%202.421%203.281%204.59%205.2%206.66c.075%200%20.149.061.224.133c1.23%203.731%201.84%205.064%201.84%205.064c-.02-.063-.068-.278-.125-.523c1.65%203.999%203.741%207.882%206.242%2011.627c13.12%2019.582%2034.422%2026.344%2034.422%2026.344c31.543%2010.699%2053.094-5.047%2053.094-5.047c19.836-13.63%2023.824-29.375%2023.824-29.375c-16%2012.52-22.914%2011.355-22.914%2011.355c11.608-5.047%2016.553-13.777%2016.553-13.777c10.852-14.79%207.168-30.383%207.168-30.383c-6.914%2015.039-13.227%2019.18-13.227%2019.18c17.012-25.895.101-41.54.101-41.54c6.915%2014.739-2.27%2032.704-2.27%2032.704c-7.722%2016.254-18.675%2022.059-18.675%2022.059c12.215%202.27%2021.199-5.957%2021.199-5.957c-17.516%2018.926-36.492%2018.02-36.492%2018.02c7.977%208.933%2019.938%208.176%2019.938%208.176c-15.645%203.683-30.332-1.516-42.395-11.56a67%2067%200%200%201-6.461-6.054s-1.816-1.918-2.172-2.422l-.05-.05c-.25%209.335%209.488%2018.015%209.488%2018.015c-12.215-5.047-17.816-16-17.816-16s-8.227-14.029-2.27-30.025c5.953-16%2023.973-19.436%2023.973-19.436c.566.275%201.101.494%201.66.754q.93.432%201.842.838c13.3%205.926%2024.008%207.896%2024.008%207.896c26.598%204.442%2025.086-8.578%2025.086-8.578c.128-5.716-4.205-11.593-8.484-16.002a62%2062%200%200%200-2.66-2.584c-.078-.071-.158-.15-.235-.22a68%2068%200%200%200-2.64-2.274l-.018-.013a54%2054%200%200%200-2.678-2.073a71%2071%200%200%200-4.744-3.207c-.285-.178-.571-.373-.855-.545c-.153-.091-.303-.171-.455-.261c-5.479-3.251-10.801-5.37-15.814-6.668c-.2-.053-.394-.091-.592-.141c-.586-.145-1.172-.293-1.748-.416a57.8%2057.8%200%200%200-12.891-1.322c-.165-.16-1.617-1.558-2.621-2.227C53.558%202.3%2049.974%201.025%2046.46.906zm32.586%2025.822a2.713%202.713%200%200%201%202.67%203.237a2.71%202.71%200%200%201-2.664%202.16a2.713%202.713%200%200%201-2.678-3.223a2.71%202.71%200%200%201%202.672-2.174'/%3e%3c/svg%3e" alt="RxJS's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill='currentColor'%20d='M4.105%204.105S9.158%201.58%2011.684.316a3.1%203.1%200%200%201%201.481-.315c.766.047%201.677.788%201.677.788L24%209.948v9.789h-4.263V24H9.789l-9-9C.303%2014.5%200%2013.795%200%2013.105c0-.319.18-.818.316-1.105zm.679.679v11.787c.002.543.021%201.024.498%201.508L10.204%2023h8.533v-4.263zm12.055-.678c-.899-.896-1.809-1.78-2.74-2.643c-.302-.267-.567-.468-1.07-.462c-.37.014-.87.195-.87.195L6.341%204.105z'/%3e%3c/svg%3e" alt="Dart's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='51.69'%20height='64'%20viewBox='0%200%20256%20317'%3e%3cdefs%3e%3clinearGradient%20id='logosFlutter0'%20x1='3.952%25'%20x2='75.897%25'%20y1='26.993%25'%20y2='52.919%25'%3e%3cstop%20offset='0%25'/%3e%3cstop%20offset='100%25'%20stop-opacity='0'/%3e%3c/linearGradient%3e%3c/defs%3e%3cpath%20fill='currentColor'%20d='M157.666.001L.001%20157.666l48.8%2048.8L255.268.001zm-1.099%20145.396l-84.418%2084.418l48.984%2049.716l48.71-48.71l85.425-85.424z'/%3e%3cpath%20fill='currentColor'%20d='m121.133%20279.531l37.082%2037.082h97.052l-85.425-85.792z'/%3e%3cpath%20fill='currentColor'%20d='m71.6%20230.364l48.801-48.801l49.441%2049.258l-48.709%2048.71z'/%3e%3cpath%20fill='url(%23logosFlutter0)'%20fill-opacity='0.6'%20d='m121.133%20279.531l40.56-13.459l4.029-31.131z'/%3e%3c/svg%3e" alt="Flutter's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%20128%20128'%3e%3cpath%20fill='currentColor'%20d='M124.742%2058.378L69.625%203.264c-3.172-3.174-8.32-3.174-11.497%200L46.685%2014.71l14.518%2014.518c3.375-1.139%207.243-.375%209.932%202.314a9.66%209.66%200%200%201%202.293%209.993L87.42%2055.529c3.385-1.167%207.292-.413%209.994%202.295c3.78%203.777%203.78%209.9%200%2013.679a9.673%209.673%200%200%201-13.683%200a9.68%209.68%200%200%201-2.105-10.521L68.578%2047.933l-.002%2034.341a9.7%209.7%200%200%201%202.559%201.828c3.779%203.777%203.779%209.898%200%2013.683c-3.779%203.777-9.904%203.777-13.679%200c-3.778-3.784-4.088-9.905-.311-13.683c.934-.933%201.855-1.638%202.855-2.11V47.333c-1-.472-1.92-1.172-2.856-2.111c-2.861-2.86-3.396-7.06-1.928-10.576L40.983%2020.333L3.229%2058.123c-3.175%203.177-3.155%208.325.02%2011.5l55.126%2055.114c3.173%203.174%208.325%203.174%2011.503%200l54.86-54.858c3.175-3.176%203.178-8.327.004-11.501'/%3e%3c/svg%3e" alt="Git's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill='currentColor'%20d='M1.5%200h21l-1.91%2021.563L11.977%2024l-8.564-2.438zm7.031%209.75l-.232-2.718l10.059.003l.23-2.622L5.412%204.41l.698%208.01h9.126l-.326%203.426l-2.91.804l-2.955-.81l-.188-2.11H6.248l.33%204.171L12%2019.351l5.379-1.443l.744-8.157z'/%3e%3c/svg%3e" alt="Html's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill='currentColor'%20d='M0%200v20.16A3.84%203.84%200%200%200%203.84%2024h16.32A3.84%203.84%200%200%200%2024%2020.16V3.84A3.84%203.84%200%200%200%2020.16%200Zm14.256%2013.08c1.56%200%202.28%201.08%202.304%202.64h-1.608c.024-.288-.048-.6-.144-.84c-.096-.192-.288-.264-.552-.264c-.456%200-.696.264-.696.84c-.024.576.288.888.768%201.08c.72.288%201.608.744%201.92%201.296q.432.648.432%201.656c0%201.608-.912%202.592-2.496%202.592c-1.656%200-2.4-1.032-2.424-2.688h1.68c0%20.792.264%201.176.792%201.176c.264%200%20.456-.072.552-.24c.192-.312.24-1.176-.048-1.512c-.312-.408-.912-.6-1.32-.816q-.828-.396-1.224-.936c-.24-.36-.36-.888-.36-1.536c0-1.44.936-2.472%202.424-2.448m5.4%200c1.584%200%202.304%201.08%202.328%202.64h-1.608c0-.288-.048-.6-.168-.84c-.096-.192-.264-.264-.528-.264c-.48%200-.72.264-.72.84s.288.888.792%201.08c.696.288%201.608.744%201.92%201.296c.264.432.408.984.408%201.656c.024%201.608-.888%202.592-2.472%202.592c-1.68%200-2.424-1.056-2.448-2.688h1.68c0%20.744.264%201.176.792%201.176c.264%200%20.456-.072.552-.24c.216-.312.264-1.176-.048-1.512c-.288-.408-.888-.6-1.32-.816c-.552-.264-.96-.576-1.2-.936s-.36-.888-.36-1.536c-.024-1.44.912-2.472%202.4-2.448m-11.031.018c.711-.006%201.419.198%201.839.63c.432.432.672%201.128.648%201.992H9.336c.024-.456-.096-.792-.432-.96c-.312-.144-.768-.048-.888.24c-.12.264-.192.576-.168.864v3.504c0%20.744.264%201.128.768%201.128a.65.65%200%200%200%20.552-.264c.168-.24.192-.552.168-.84h1.776c.096%201.632-.984%202.712-2.568%202.688c-1.536%200-2.496-.864-2.472-2.472v-4.032c0-.816.24-1.44.696-1.848c.432-.408%201.146-.624%201.857-.63'/%3e%3c/svg%3e" alt="Css's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill='currentColor'%20d='M12%204.86q-4.76%200-5.95%204.76q1.785-2.38%204.165-1.785c.905.226%201.552.883%202.268%201.61C13.651%2010.63%2015%2012%2017.95%2012q4.76%200%205.95-4.76q-1.785%202.38-4.165%201.785c-.906-.226-1.552-.883-2.27-1.61C16.3%206.23%2014.95%204.86%2012%204.86M6.05%2012Q1.29%2012%20.1%2016.76q1.785-2.38%204.165-1.785c.905.226%201.552.883%202.269%201.61C7.7%2017.77%209.05%2019.14%2012%2019.14q4.76%200%205.95-4.76q-1.785%202.38-4.165%201.785c-.906-.226-1.552-.883-2.27-1.61C10.35%2013.37%209%2012%206.05%2012'/%3e%3c/svg%3e" alt="Tailwind's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="./assets/12.sqlserver-BSBnVA5G.svg" alt="Sqlserver's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2032%2032'%3e%3cpath%20fill='currentColor'%20d='M18.036.131C9.271-.989%201.255%205.198.131%2013.964c-1.12%208.765%205.067%2016.781%2013.833%2017.905c8.765%201.12%2016.781-5.067%2017.9-13.833C32.989%209.271%2026.803%201.255%2018.036.131m3.292%209.984c-.297%200-.579.12-.787.333l-5.937%205.932l-.411-.407l-.855-.859c5.849-5.833%206.907-5.891%207.989-5zm-6.479%206.478l5.916-5.921a.83.83%200%200%201%201.204.005a.825.825%200%200%201-.073%201.197l-6.265%205.5zm.438.928l-1.469.317a.085.085%200%200%201-.088-.047a.08.08%200%200%201%20.016-.095l.859-.859zm-3.74-.614l1.568-1.563l1.172%201.172l-2.641.567a.1.1%200%200%201-.115-.052a.1.1%200%200%201%20.016-.124m-4.859%208.077c-.057-.005-.1-.057-.095-.109a.12.12%200%200%201%20.032-.063h.005l1.26-1.26l1.631%201.631zm3.233-1.677a.31.31%200%200%200-.156.344l.271%201.152c.043.167-.161.28-.281.156H9.75l-1.635-1.636l5.016-5.011l2.427-.525l1.161%201.167c-1.672%201.468-3.959%202.932-6.797%204.353zm7.038-4.567l-1.12-1.12l6.265-5.5q.086-.079.156-.167c-.192%201.792-2.703%204.323-5.301%206.787m4.88-8.615h-.005c-2.183-2.193.901-5.563%203.276-3.584l-2.145%202.152a.16.16%200%200%200%200%20.228l1.661%201.663a2.42%202.42%200%200%201-2.787-.459m3.432%200a2%202%200%200%201-.359.291l-1.609-1.609l2.041-2.047a2.43%202.43%200%200%201-.073%203.365m-.131-2.057a.19.19%200%200%200-.072.208a.55.55%200%200%201-.068.599a.185.185%200%200%200%20.031.265a.2.2%200%200%200%20.109.037c.057%200%20.111-.021.141-.063a.93.93%200%200%200%20.12-1.005a.185.185%200%200%200-.261-.041'/%3e%3c/svg%3e" alt="Postman's Logo">
+        </div>
+        <div class="w-10 h-10 object-cover not-sm:col-span-2">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='63.75'%20height='64'%20viewBox='0%200%20510%20512'%3e%3cpath%20fill='currentColor'%20d='M493.89%2058.275L355.178%2083.558L379.282%200L186.79%2037.718l-2.999%2050.64L15.145%2058.214C3.53%2057.538-3.238%2065.879%201.558%2077.46l244.056%20427.983c5.253%208.575%2017.347%208.91%2022.65%200L507.575%2077.419c5.4-9.676-2.874-21.018-13.685-19.144m-237%20435.435L17.87%2074.556l164.993%2029.491l-7.778%20131.365l67.632-15.608l-18.858%2092.344l51.374-15.608l-25.495%20123.397c-1.27%208.069%209.241%2012.362%2014.44.812l150.22-299.792l-74.135%2014.308l10.086-34.962l140.91-25.684z'/%3e%3c/svg%3e" alt="Vite's Logo">
+        </div>
+      </div>
+    </section>
+    
+    <footer class="bg-red-accent shadow-2xl py-6 text-white">
+      <div class="max-w-3xl mx-auto flex justify-center gap-10">
+        <a class="w-6 h-6 object-cover" href="mailto:edubpz08@gmail.com" aria-label="Link to mail">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill='%23fff'%20d='M24%205.457v13.909c0%20.904-.732%201.636-1.636%201.636h-3.819V11.73L12%2016.64l-6.545-4.91v9.273H1.636A1.636%201.636%200%200%201%200%2019.366V5.457c0-2.023%202.309-3.178%203.927-1.964L5.455%204.64L12%209.548l6.545-4.91l1.528-1.145C21.69%202.28%2024%203.434%2024%205.457'/%3e%3c/svg%3e" alt="Mail image">
+        </a>
+        <a class="w-6 h-6 object-cover" target="_blank" href="https://github.com/ejbpz" rel="noopener noreferrer" aria-label="Link to GitHub">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2024%2024'%3e%3cg%20fill='none'%3e%3cg%20clip-path='url(%23akarIconsGithubFill0)'%3e%3cpath%20fill='%23fff'%20fill-rule='evenodd'%20d='M12%200C5.37%200%200%205.37%200%2012c0%205.31%203.435%209.795%208.205%2011.385c.6.105.825-.255.825-.57c0-.285-.015-1.23-.015-2.235c-3.015.555-3.795-.735-4.035-1.41c-.135-.345-.72-1.41-1.23-1.695c-.42-.225-1.02-.78-.015-.795c.945-.015%201.62.87%201.845%201.23c1.08%201.815%202.805%201.305%203.495.99c.105-.78.42-1.305.765-1.605c-2.67-.3-5.46-1.335-5.46-5.925c0-1.305.465-2.385%201.23-3.225c-.12-.3-.54-1.53.12-3.18c0%200%201.005-.315%203.3%201.23c.96-.27%201.98-.405%203-.405s2.04.135%203%20.405c2.295-1.56%203.3-1.23%203.3-1.23c.66%201.65.24%202.88.12%203.18c.765.84%201.23%201.905%201.23%203.225c0%204.605-2.805%205.625-5.475%205.925c.435.375.81%201.095.81%202.22c0%201.605-.015%202.895-.015%203.3c0%20.315.225.69.825.57A12.02%2012.02%200%200%200%2024%2012c0-6.63-5.37-12-12-12'%20clip-rule='evenodd'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='akarIconsGithubFill0'%3e%3cpath%20fill=''%20d='M0%200h24v24H0z'/%3e%3c/clipPath%3e%3c/defs%3e%3c/g%3e%3c/svg%3e" alt="GitHub image">
+        </a>
+        <a class="w-6 h-6 object-cover" target="_blank" href="https://www.linkedin.com/in/ejbpz/" rel="noopener noreferrer" aria-label="Link to LinkedIn">
+          <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2016%2016'%3e%3cpath%20fill='%23fff'%20d='M0%201.146C0%20.513.526%200%201.175%200h13.65C15.474%200%2016%20.513%2016%201.146v13.708c0%20.633-.526%201.146-1.175%201.146H1.175C.526%2016%200%2015.487%200%2014.854zm4.943%2012.248V6.169H2.542v7.225zm-1.2-8.212c.837%200%201.358-.554%201.358-1.248c-.015-.709-.52-1.248-1.342-1.248S2.4%203.226%202.4%203.934c0%20.694.521%201.248%201.327%201.248zm4.908%208.212V9.359c0-.216.016-.432.08-.586c.173-.431.568-.878%201.232-.878c.869%200%201.216.662%201.216%201.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252c-1.274%200-1.845.7-2.165%201.193v.025h-.016l.016-.025V6.169h-2.4c.03.678%200%207.225%200%207.225z'/%3e%3c/svg%3e" alt="LinkedIn image">
+        </a>
+      </div>
+    </footer>
+
+  </body>
+</html>
