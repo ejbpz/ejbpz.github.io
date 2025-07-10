@@ -16,7 +16,7 @@ ProjectsList.forEach(project => {
 
   card.innerHTML = `<div class="flex flex-col z-10 border-[1px] min-h-[450px] bg-white rounded-2xl before:w-full before:h-full before:absolute before:top-1.5 before:right-1.5 before:bg-black before:-z-10 before:rounded-2xl overflow-hidden">
     <figure class="max-h-40 overflow-hidden object-cover shadow-xl">
-      <img class="w-full h-50 object-cover object-center" src="/public/assets/images/${project.image}" alt="${project.image.split('.')[0]}"/>
+      <img class="w-full h-50 object-cover object-center" src="/assets/images/${project.image}" alt="${project.image.split('.')[0]}"/>
     </figure>
     <div class="p-5 min-h-[290px] flex flex-col justify-between">
       <div class="flex h-full flex-col overflow-ellipsis">
