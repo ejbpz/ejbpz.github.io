@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @font-face {
   font-family: "RocknRoll";
   src: url("/public/assets/fonts/RocknRoll.ttf");
 }
 
 @theme {
+  --color-icons-text: #FFF;
   --color-red-accent: #DE4646;
   --color-custom-grey: #FBFBFB;
   --background-color-primary: #FFFFFF;
-  /* --color-custom-grey: #898989;
-  --background-color-primary: #606060; */
   --font-rock-n-roll: "RocknRoll", "san serif";
+}
+
+.dark {
+  --color-icons-text: #000;
+  --color-custom-grey: #1B1C20;
+  --background-color-primary: #18191c;
 }
 
 html { 
