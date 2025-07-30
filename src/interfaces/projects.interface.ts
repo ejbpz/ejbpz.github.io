@@ -4,5 +4,6 @@ export interface Projects {
   description: string,
   stack: string[],
   repository: string,
-  class: string
+  class: string,
+  position: number,
 }

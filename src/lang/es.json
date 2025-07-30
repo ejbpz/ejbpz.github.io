@@ -1,0 +1,29 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Acerca",
+    "projects": "Proyectos"
+  },
+  "main": {
+    "description": "Desarrollador Móvil/Web"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "paragraph-1": "¡Hola! Soy un desarrollador apasionado por crear aplicaciones web limpias y funcionales. He trabajado con tecnologías como <strong>Angular</strong>, <strong>Flutter</strong> y <strong>.NET</strong> y siempre estoy buscando aprender nuevas herramientas y frameworks. Me encanta resolver problemas del mundo real mediante el código, ya sea en el frontend, backend o en cualquier punto intermedio.",
+    "paragraph-2": "Disfruto mantener las cosas simples, escribir código legible y mejorar constantemente. Cuando no estoy programando, probablemente me encuentres aprendiendo algo nuevo, organizando ideas para algún proyecto personal o comiendo (demasiadas) palomitas."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle-1": "Sistema de Inventario y Ventas",
+    "description-1": "Sistema de ventas e inventario para el mundo real, desarrollado con ASP.NET Core 7, que incluye control de acceso basado en roles, gestión de inventario, integración de pagos y generación de reportes.",
+    "subtitle-2": "Cinemapedia",
+    "description-2": "Aplicación de películas desarrollada con Flutter, utilizando Dart y Riverpod. Incluye navegación con swipers, gestión global del estado, componentes modulares e integración con la API de TMDB.",
+    "subtitle-3": "Teslo Shop Móvil",
+    "description-3": "Aplicación móvil administrativa de e-commerce desarrollada con Flutter, que consume una API creada en NestJS y cuenta con autenticación basada en roles.",
+    "subtitle-4": "Teslo Shop Web",
+    "description-4": "Tienda de ropa e-commerce desarrollada con Angular, que consume una API en NestJS y cuenta con autenticación basada en roles y protección mediante guards con tokens."
+  },
+  "tech-stack": {
+    "title": "Tecnologías"
+  }
+}

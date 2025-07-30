@@ -2,6 +2,7 @@ import type { Projects } from '../interfaces/projects.interface';
 
 export const ProjectsList: Projects[] = [
   {
+    position: 1,
     image: 'projects/inventory-system-project.png',
     title: 'Sales & Inventory System',
     description: 'Real-world Sales & Inventory System built with ASP.NET Core 7, featuring role-based access, inventory control, payment integration, and report generation.',
@@ -16,6 +17,7 @@ export const ProjectsList: Projects[] = [
     class: "order-1"
   },
   {
+    position: 2,
     image: 'projects/cinemapedia-project.png',
     title: 'Cinemapedia',
     description: 'Flutter movie app built with Dart and Riverpod. Features swipers, global state management, modular components, and TMDB integration.',
@@ -27,6 +29,7 @@ export const ProjectsList: Projects[] = [
     class: "order-2"
   },
   {
+    position: 3,
     image: 'projects/teslo-flutter-project.png',
     title: 'Teslo Shop Mobile',
     description: 'Flutter mobile administrative e-commerce consuming a NestJS API with role-based authentication.',
@@ -38,6 +41,7 @@ export const ProjectsList: Projects[] = [
     class: "order-3 not-sm:order-4"
   },
   {
+    position: 4,
     image: 'projects/teslo-angular-project.png',
     title: 'Teslo Shop Web',
     description: 'Angular e-commerce clothing store consuming a NestJS API with role-based auth and token guards.',
