@@ -5,8 +5,8 @@
     <link rel="icon" type="image/png" href="./assets/icon/icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Eduardo J. Brenes Pérez</title>
-    <script type="module" crossorigin src="./assets/index-CT8c4j_f.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CesX62Ju.css">
+    <script type="module" crossorigin src="./assets/index-Ckp1qPBD.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DRgpu_YM.css">
   </head>
   <body class="text-black dark:text-white">
     <header class="fixed z-20 left-1/2 -translate-x-[50%] top-3.5 flex items-center not-sm:flex-wrap">
@@ -18,9 +18,9 @@
       <div class="relative">  
         <nav class="py-3 px-5.5 bg-white dark:bg-black border-[1px] border-black dark:border-white rounded-2xl before:flex before:fixed before:bg-black dark:before:bg-white before:top-1 before:right-1 before:w-full before:h-full before:rounded-2xl before:-z-20">
           <ul class="flex gap-4 text-black dark:text-white">
-            <li><a class="hover:text-red-accent hover:font-medium" href="#">Home</a></li>
-            <li><a class="hover:text-red-accent hover:font-medium" href="#AboutMe">About</a></li>
-            <li><a class="hover:text-red-accent hover:font-medium" href="#Projects">Projects</a></li>
+            <li><a class="hover:text-red-accent hover:font-medium" data-section="header" data-value="home" href="#">Home</a></li>
+            <li><a class="hover:text-red-accent hover:font-medium" data-section="header" data-value="about" href="#AboutMe">About</a></li>
+            <li><a class="hover:text-red-accent hover:font-medium" data-section="header" data-value="projects" href="#Projects">Projects</a></li>
           </ul>
         </nav>
       </div>
@@ -41,7 +41,7 @@
           
         <div class="text-center not-sm:max-w-2xs flex flex-col gap-1">
           <h1 class="font-rock-n-roll text-3xl font-bold not-sm:text-2xl">Eduardo J. Brenes Pérez</h1>
-          <h2 class="font-medium text-lg">Web & Mobile Developer</h2>
+          <h2 class="font-medium text-lg" data-section="main" data-value="description">Web & Mobile Developer</h2>
         </div>
 
         <div class="flex gap-3">
@@ -55,16 +55,16 @@
       </div>
     </main>
 
-    <section class="bg-red-accent shadow-2xl py-10 px-4 text-white" id="AboutMe">
+    <section class="bg-red-accent shadow-xl dark:shadow-[#b8b7b71e] shadow-[#4444442c] py-10 px-4 text-white" id="AboutMe">
       <div class="max-w-3xl mx-auto">
-        <h3 class="font-rock-n-roll text-xl font-semibold">About Me</h3>
+        <h3 class="font-rock-n-roll text-xl font-semibold" data-section="about" data-value="title">About Me</h3>
         <div class="mx-auto flex flex-col justify-center items-center">
-          <p class="leading-relaxed text-gray-100 mt-2">
+          <p class="leading-relaxed text-gray-100 mt-2" data-section="about" data-value="paragraph-1">
             Hey there! I'm a developer who enjoys building clean and functional web apps. I've worked with technologies like
             <strong>Angular</strong>, <strong>Flutter</strong>, and <strong>.NET</strong> — and I'm always curious to learn more.
             I like solving real-world problems through code, whether it's frontend, backend, or somewhere in between.
           </p>
-          <p class="leading-relaxed text-gray-100 mt-3">
+          <p class="leading-relaxed text-gray-100 mt-3" data-section="about" data-value="paragraph-2">
             I enjoy keeping things simple, writing readable code, and constantly improving. When I'm not coding, you'll probably find me learning something new, organizing ideas for a personal project, or drinking way too much tea.
           </p>
         </div>
@@ -72,17 +72,16 @@
     </section>
 
     <section class="max-w-3xl mx-auto pt-10 not-sm:px-4" id="Projects">
-      <h3 class="font-rock-n-roll text-xl font-semibold">Projects</h3>
-      <div id="projects-divs" class="grid grid-cols-2 not-sm:grid-cols-1 gap-6 px-10 mt-3"></div>
+      <h3 class="font-rock-n-roll text-xl font-semibold" data-section="projects" data-value="title">Projects</h3>
+      <div id="projects-divs" class="grid grid-cols-2 not-sm:grid-cols-1 gap-6 px-10 mt-10 mb-5"></div>
     </section>
 
     <section class="max-w-3xl mx-auto py-10 not-sm:px-4" id="TechStack">
-      <h3 class="font-rock-n-roll text-xl font-semibold">Tech Stack</h3>
-      <div class="mt-3 grid not-sm:grid-cols-2 grid-cols-3 justify-items-center items-center gap-5 justify-center">
+      <h3 class="font-rock-n-roll text-xl font-semibold" data-section="tech-stack" data-value="title">Tech Stack</h3>
+      <div class="mt-10 mb-3 grid not-sm:grid-cols-2 grid-cols-3 justify-items-center items-center gap-7 justify-center">
         <div class="w-10 h-10 object-cover bg-primary">
           <svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full" viewBox="0 0 128 128"><path fill="currentColor" d="m117.5 33.5l.3-.2c-.6-1.1-1.5-2.1-2.4-2.6L67.1 2.9c-.8-.5-1.9-.7-3.1-.7s-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9 3.5-2.9 5.4v55.7c0 1.1.2 2.3.9 3.4l-.2.1c.5.8 1.2 1.5 1.9 1.9l48.2 27.9c.8.5 1.9.7 3.1.7s2.3-.3 3.1-.7l48-27.9c1.7-1 2.9-3.5 2.9-5.4V36.1c.1-.8 0-1.7-.4-2.6m-53.5 70c-21.8 0-39.5-17.7-39.5-39.5S42.2 24.5 64 24.5c14.7 0 27.5 8.1 34.3 20l-13 7.5C81.1 44.5 73.1 39.5 64 39.5c-13.5 0-24.5 11-24.5 24.5s11 24.5 24.5 24.5c9.1 0 17.1-5 21.3-12.4l12.9 7.6c-6.8 11.8-19.6 19.8-34.2 19.8M115 62h-3.2l-.9 4h4.1v5h-5l-1.2 6h-4.9l1.2-6h-3.8l-1.2 6h-4.8l1.2-6H94v-5h3.5l.9-4H94v-5h5.3l1.2-6h4.9l-1.2 6h3.8l1.2-6h4.8l-1.2 6h2.2zm-12.7 4h3.8l.9-4h-3.8z"/></svg>
         </div>
-
         
         <div class="w-10 h-10 object-cover bg-primary">
           <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="none"><g clip-path="url(#akarIconsTypescriptFill0)"><path fill="currentColor" d="M23.429 0H.57A.57.57 0 0 0 0 .571V23.43a.57.57 0 0 0 .571.571H23.43a.57.57 0 0 0 .571-.571V.57a.57.57 0 0 0-.572-.57m-9.143 12.826h-2.857v8.888H9.143v-8.888H6.286v-1.969h8zm.64 8.38v-2.375s1.298.978 2.855.978s1.497-1.018 1.497-1.158c0-1.477-4.412-1.477-4.412-4.751c0-4.452 6.429-2.695 6.429-2.695l-.08 2.116s-1.078-.719-2.296-.719s-1.657.58-1.657 1.198c0 1.597 4.452 1.438 4.452 4.652c0 4.95-6.788 2.755-6.788 2.755"/></g><defs><clipPath id="akarIconsTypescriptFill0"><path fill="#fff" d="M0 0h24v24H0z"/></clipPath></defs></g></svg>
@@ -142,7 +141,7 @@
       </div>
     </section>
     
-    <footer class="bg-red-accent shadow-2xl py-6 text-white">
+    <footer class="bg-red-accent shadow-xl dark:shadow-[#b8b7b71e] shadow-[#4444442c] py-8 text-white">
       <div class="max-w-3xl mx-auto flex justify-center gap-10">
         <a class="w-6 h-6 object-cover" href="mailto:edubpz08@gmail.com" aria-label="Link to mail">
           <img class="w-full h-full" src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20width='64'%20height='64'%20viewBox='0%200%2024%2024'%3e%3cpath%20fill='%23fff'%20d='M24%205.457v13.909c0%20.904-.732%201.636-1.636%201.636h-3.819V11.73L12%2016.64l-6.545-4.91v9.273H1.636A1.636%201.636%200%200%201%200%2019.366V5.457c0-2.023%202.309-3.178%203.927-1.964L5.455%204.64L12%209.548l6.545-4.91l1.528-1.145C21.69%202.28%2024%203.434%2024%205.457'/%3e%3c/svg%3e" alt="Mail image">
