@@ -1,0 +1,29 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects"
+  },
+  "main": {
+    "description": "Web & Mobile Developer"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph-1": "Hey there! I'm a developer who enjoys building clean and functional web apps. I've worked with technologies like <strong>Angular</strong>, <strong>Flutter</strong>, and <strong>.NET</strong> — and I'm always curious to learn more. I like solving real-world problems through code, whether it's frontend, backend, or somewhere in between.",
+    "paragraph-2": "I enjoy keeping things simple, writing readable code, and constantly improving. When I'm not coding, you'll probably find me learning something new, organizing ideas for a personal project, or drinking way too much tea."
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle-1": "Sales & Inventory System",
+    "description-1": "Real-world Sales & Inventory System built with ASP.NET Core 7, featuring role-based access, inventory control, payment integration, and report generation.",
+    "subtitle-2": "Cinemapedia",
+    "description-2": "Flutter movie app built with Dart and Riverpod. Features swipers, global state management, modular components, and TMDB integration.",
+    "subtitle-3": "Teslo Shop Mobile",
+    "description-3": "Flutter mobile administrative e-commerce consuming a NestJS API with role-based authentication.",
+    "subtitle-4": "Teslo Shop Web",
+    "description-4": "Angular e-commerce clothing store consuming a NestJS API with role-based auth and token guards."
+  },
+  "tech-stack": {
+    "title": "Tech Stack"
+  }
+}

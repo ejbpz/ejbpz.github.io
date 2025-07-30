@@ -60,7 +60,7 @@ let toggleLanguage: HTMLButtonElement|null = document.querySelector('#button-lan
 let textToChange:NodeListOf<HTMLElement> = document.querySelectorAll('[data-section]');
 
 const getLanguages = (language: string) => {
-  fetch(`./src/lang/${language}.json`)
+  fetch(`/assets/lang/${language}.json`)
     .then(res => res.json())
     .then(data => {
       textToChange.forEach((tag:HTMLElement) => {
