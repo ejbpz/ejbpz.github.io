@@ -1,4 +1,4 @@
-import type { Projects } from '../interfaces/projects.interface';
+import type { Projects } from '../types/projects.interface';
 
 export const ProjectsList: Projects[] = [
   {

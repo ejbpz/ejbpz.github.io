@@ -1,7 +1,4 @@
-enum Languages {
-  English = 'en',
-  Spanish = 'es',
-}
+import { Languages } from "../types/languages.enum";
 
 const getLanguages = (textToChange:NodeListOf<HTMLElement>, language: string) => {
   fetch(`/assets/lang/${language}.json`)
