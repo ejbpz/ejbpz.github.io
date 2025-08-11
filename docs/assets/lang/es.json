@@ -24,6 +24,10 @@
     "description-4": "Tienda de ropa e-commerce desarrollada con Angular, que consume una API en NestJS y cuenta con autenticación basada en roles y protección mediante guards con tokens."
   },
   "tech-stack": {
-    "title": "Tecnologías"
+    "title": "Tecnologías",
+    "frontend-title": "Desarrollo Frontend",
+    "backend-title": "Desarrollo Backend",
+    "mobile-title": "Desarrollo Móvil",
+    "tools-title": "Herramientas"
   }
 }

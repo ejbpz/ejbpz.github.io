@@ -24,6 +24,10 @@
     "description-4": "Angular e-commerce clothing store consuming a NestJS API with role-based auth and token guards."
   },
   "tech-stack": {
-    "title": "Tech Stack"
+    "title": "Tech Stack",
+    "frontend-title": "Frontend Development",
+    "backend-title": "Backend Development",
+    "mobile-title": "Mobile Development",
+    "tools-title": "Tools"
   }
 }
